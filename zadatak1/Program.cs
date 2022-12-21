@@ -6,6 +6,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Net;
 using System.Net.Http;
 using System.Net.Http.Formatting;
 using System.Net.Http.Headers;
@@ -61,7 +62,7 @@ namespace CallRequestResponseService
                 // with the following:
                 //      result = await DoSomeTask().ConfigureAwait(false)
 
-
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 HttpResponseMessage response = await client.PostAsJsonAsync("", scoreRequest);
 
                 if (response.IsSuccessStatusCode)

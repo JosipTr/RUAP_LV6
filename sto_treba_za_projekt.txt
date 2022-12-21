@@ -1,0 +1,20 @@
+1. DATASET
+problem
+ucl, kaggle (datassetovi)
+N,d,c
+d znacajke
+c klase
+objasnjenje
+
+2. IZRADA ML MODELA
+Predobrada (Clean missing value, normalization, feature selection
+
+ML model (kNN, svm, ann, dt, rf) klasifikacije
+azure ML ili Python,C,c++,c#, java
+
+3.DEPLOY ML MODELA -> WEB API
+dokumentacija
+
+4.KLIJENTSKA APLIKACIJA
+web, mobile, desktop
+statistika (grafovi)
